@@ -6,6 +6,15 @@ public class Employee{
     private int age;
     private String gender;
 
+    public Employee() {
+    }
+
+    public Employee(int employeeID, String employeeName, int age, String gender) {
+        this.employeeID = employeeID;
+        this.employeeName = employeeName;
+        this.age = age;
+        this.gender = gender;
+    }
 
     public int getEmployeeID() {
         return employeeID;
